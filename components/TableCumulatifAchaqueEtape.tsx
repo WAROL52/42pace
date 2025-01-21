@@ -2,7 +2,6 @@
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableFooter,
   TableHead,
@@ -14,10 +13,6 @@ import { milestones, mois } from "@/lib/pace";
 export type TableCumulatifAchaqueEtapeProps = {};
 
 export function TableCumulatifAchaqueEtape({}: TableCumulatifAchaqueEtapeProps) {
-  return <TableDemo />;
-}
-
-export function TableDemo() {
   return (
     <Table>
       <TableHeader>
